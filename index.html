@@ -54,6 +54,8 @@ body, html {
 <body>
 <h1 class="w3-center">Sangam Pharmacy</h1>
 <h3 class="w3-center">(Try our web bot to know your medicines available or not)</h3>
+<h4 class="w3-center">Say hi or enter the medicine name</h4>
+<h4 class="w3-center">             ↓ </h4>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 table, th, td {
@@ -100,13 +102,15 @@ table.center {
 <!-- Container (About Section) -->
 <div class="w3-content w3-container w3-padding-64" id="about">
   <h3 class="w3-center">ABOUT THIS PROJECT</h3>
-  <p>We have created a fictional "personal" website/blog, and our fictional character is a hobby photographer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-    qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <p><b>Problem Statement:</b> In this covid time, the pharmacies are meeting medicine shortage. But the customer doesn't know that their medicines are available in this pharmacy or not. The customers wasting their time in queue to know the medicine availability for buying. So, I created a websiter with azure bot service. This bot helps customers to know the medicine availablity with price in online for a specific pharmacy. Now, the customers can check medicine availability in home with internet connection.</p>
+  <p><b>Core Idea:</b> Let the customer know the availability of the medicine in the pharmacy via Azure bot.</p>
+
+<p><b>How I Done this/Solution :</b> I created Medicine availability bot. It uses Azure web app bot service to check the medicine availabilty. The medicine data are uploaded to bot service using Azure QnaMaker service. This bot is implemented in pharmacy website using Azure web service. Now, the customer can access this platform to know the medicine availability of the pharmacy. I deployed the solution in Azure web app using GitHub actions and the code is written using VS Code.
+</p>
   <div class="w3-row">
     <div >
       <h3 class="w3-center">ABOUT ME</h3>
-      <p>I'm Vimal kumar. I love to learn new Technologies and I love Web Designing. I am very fortunate to get this opportunity from the Future Ready Talent Internship.</p>
+      <p>I'm Vimal kumar. I love to learn new technologies and I love Web Designing. I am very fortunate to get this opportunity from the Future Ready Talent Internship.</p>
     </div>
 
     <!-- Hide this text on small devices -->
@@ -126,9 +130,8 @@ table.center {
 
 
 <!-- Footer -->
-<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
-  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-  <p> By Vimal - <a href="https://github.com/vimalkumarpp" title="W3.CSS" target="_blank" class="w3-hover-text-green">Github</a></p>
+<footer class="w3-center w3-black w3-padding-54 w3-opacity w3-hover-opacity-off">
+  <p> By Vimal - <a href="https://github.com/vimalkumarpp/SangamPharmacy" title="Sangam-Med" target="_blank" class="w3-hover-text-green">Github</a></p>
 </footer>
  
 <script>
